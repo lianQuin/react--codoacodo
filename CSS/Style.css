@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ #hero{min-height: 100vh;
+  position: relative;  
+
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.batman{
+    position: fixed
+    ;
+    top: 50%;
+    left: 50%;
+    border-top-left-radius: 50% 70%;
+	border-top-right-radius: 50% 70%;
+	border-bottom-right-radius: 50% 40%;
+	border-bottom-left-radius: 50% 40%; 
+	background: #f62e14;
+	border: 2px solid #b41616;
+	margin: 2%;
+	height: 100px;
+	width: 80px;
+    transform: translate(-50%,-50%);
+    min-width: 700px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+    ;
+   background-image: url(../img/CapturadePatricio.png);
+
+
+}
+
+.batman_activo{background-image:url(../img/patricio.gif )}
+.bati_boton{
+    margin: 300px auto 0;
+    width: 35px;
+    height: 30px;
+    border-radius: 10%;
+    border: 2px solid #b41616;
+
+
+
+}
